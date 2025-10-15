@@ -7,7 +7,11 @@ This is a _blank_ project pre-configured with somr tools and tweaks that I find 
 npm install
 #Then to run on browser
 npm run dev
+#Visit http://localhost:5173/ on the browser
 ```
+
+If you just want to practice html go to [App.jsx](/src/App.jsx) delete HomePage and write your tags inside. They will be added to [index.html](index.html) replacing the **<script>** tag.
+For CSS go to [index.css](/src/index.css) and add your rules.
 
 ## Vite
 
