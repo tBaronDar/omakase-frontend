@@ -32,6 +32,16 @@ The following are plugins that help with writting code(css, html, javascript). Y
 - eslint packages installed and [configured](eslint.config.js)
 - prettier code formatter installed and [configured](.prettierrc)
 
+## pre-commit
+
+We can make the plugins above to run automatically when we do
+
+```bash
+git commit
+```
+
+For this to work install the pre-commit hook from the guide below.
+
 ## Which VS Code extensions do I need?
 
 I have created [this guide](https://github.com/tBaronDar/webdev-essential-tools/blob/main/README.md)
