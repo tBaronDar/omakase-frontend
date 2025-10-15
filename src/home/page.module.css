@@ -1,0 +1,9 @@
+.test-class {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #111010;
+  background-color: linen;
+  height: 100vh;
+}
