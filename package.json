@@ -1,11 +1,11 @@
 {
-  "name": "omakase-frontend",
-  "private": true,
+  "name": "capstone-frontend",
   "version": "0.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
+    "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview"
   },

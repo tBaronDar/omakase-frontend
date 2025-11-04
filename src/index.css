@@ -20,70 +20,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* ===== TYPOGRAPHY ===== */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  font-weight: 600;
-  line-height: 1.2;
-}
-
-h1 {
-  font-size: 2.5rem;
-}
-h2 {
-  font-size: 2rem;
-}
-h3 {
-  font-size: 1.75rem;
-}
-h4 {
-  font-size: 1.5rem;
-}
-h5 {
-  font-size: 1.25rem;
-}
-h6 {
-  font-size: 1rem;
-}
-
 p {
   margin: 0;
-}
-
-/* ===== LINKS ===== */
-
-a {
-  color: #3182ce;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-a:hover {
-  color: #2c5aa0;
-  text-decoration: underline;
-}
-
-/* ===== FORM ELEMENTS ===== */
-
-input,
-textarea,
-select,
-button {
-  font-family: inherit;
-  font-size: inherit;
-}
-
-input:focus,
-textarea:focus,
-select:focus {
-  outline: 2px solid #3182ce;
-  outline-offset: 2px;
 }
 
 /* ===== SCROLLBAR STYLING ===== */

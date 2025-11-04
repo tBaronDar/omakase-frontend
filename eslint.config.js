@@ -80,7 +80,6 @@ export default [
       },
 
       'import/extensions': ['.js', '.jsx'],
-
       'import/resolver': {
         node: {
           extensions: ['.js', '.jsx'],
@@ -98,7 +97,6 @@ export default [
 
     rules: {
       semi: ['error', 'always'],
-
       quotes: [
         'error',
         'single',
@@ -106,13 +104,11 @@ export default [
           avoidEscape: true,
         },
       ],
-
       'global-require': ['warn'],
       'guard-for-in': ['error'],
       radix: ['error'],
       eqeqeq: ['error', 'always'],
-      'prefer-const': ['error'],
-
+      'prefer-const': ['warn'],
       'object-shorthand': [
         'error',
         'always',
@@ -170,7 +166,6 @@ export default [
           extensions: ['.js', '.jsx'],
         },
       ],
-
       'react/react-in-jsx-scope': ['off'],
       'react/prop-types': ['off'],
       'react/require-default-props': ['off'],

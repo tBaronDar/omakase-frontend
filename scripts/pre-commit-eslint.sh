@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 set -e
 
-# Collect only the files we care about with TS extensions.
+# Collect only the files we care about with JS or JSX extensions.
 changed_files=()
 for file in "$@"; do
-  if [[ -f "$file" && ( "$file" == *.ts || "$file" == *.tsx ) ]]; then
+  if [[ -f "$file" && ( "$file" == *.js || "$file" == *.jsx ) ]]; then
     changed_files+=("$file")
   fi
 done
@@ -17,4 +17,4 @@ fi
 echo "Linting files: ${changed_files[*]}"
 
 # Now run ESLint (or use npm run lint -- if that accepts file args).
-npx eslint --fix --max-warnings=0 "${changed_files[@]}"
+npx eslint --fix --max-warnings=0 --no-warn-ignored "${changed_files[@]}"

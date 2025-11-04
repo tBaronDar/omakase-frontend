@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 set -e
 
-# Collect only the files we care about with TS or JSON extensions.
+# Collect only the files we care about with JS or JSON extensions.
 changed_files=()
 for file in "$@"; do
-  if [[ -f "$file" && ( "$file" == *.ts || "$file" == *.tsx || "$file" == *.json ) ]]; then
+  if [[ -f "$file" && ( "$file" == *.js || "$file" == *.jsx || "$file" == *.json || "$file" == *.css ) ]]; then
     changed_files+=("$file")
   fi
 done
