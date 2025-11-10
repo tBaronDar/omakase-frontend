@@ -3,8 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #131517;
-  background: linear-gradient(180deg, #e47a11ed, #ece7e7);
   height: 100vh;
 }
 

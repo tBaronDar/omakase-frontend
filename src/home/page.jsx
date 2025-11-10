@@ -2,7 +2,7 @@ import styles from './page.module.css';
 
 export default function HomePage() {
   // This is how to put a variable in a jsx element
-  const myString = 'Welcome to The Black Hawks Frontend';
+  const myString = 'Welcome to Omakase Frontend';
 
   return (
     <div className={styles.testClass}>

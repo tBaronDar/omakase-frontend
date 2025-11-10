@@ -1,21 +1,27 @@
-/* Import Poppins font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
 
-/* ===== GLOBAL RESET & BASE STYLES ===== */
+/* ===== CSS VARIABLES ===== */
+:root {
+  --main-font: 'Poppins', sans-serif;
+  --main-color: #e47a11;
+  --secondary-color: #131517;
+  --accent-color: #ece7e7;
 
+  --main-text-color: #1a202c;
+  --secondary-text-color: #4a5568;
+}
+
+/* ===== GLOBAL RESET & BASE STYLES ===== */
 /* Box-sizing border-box for all elements */
 * {
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--main-font);
 }
 
-/* Remove default margins and set base styles */
 body {
   margin: 0;
   height: 100vh;
-  background-color: #f8fafc;
-  color: #1a202c;
-  line-height: 1.6;
+  color: var(--main-text-color);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
